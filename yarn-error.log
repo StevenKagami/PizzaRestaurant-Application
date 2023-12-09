@@ -1,0 +1,61 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/20.8.0/bin/node /opt/homebrew/bin/yarn add react-countdown
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.2.2/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.2.2/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/stevenfarreliojorgensen/flutter/bin:/Users/stevenfarreliojorgensen/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/next/-/next-14.0.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:628:28)
+      at ClientRequest.emit (node:events:514:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:840:9)
+      at Object.onceWrapper (node:events:628:28)
+      at TLSSocket.emit (node:events:526:35)
+      at Socket._onTimeout (node:net:589:8)
+      at listOnTimeout (node:internal/timers:573:17)
+      at process.processTimers (node:internal/timers:514:7)
+
+npm manifest: 
+  {
+    "name": "pizza-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "react": "^18",
+      "react-dom": "^18",
+      "next": "14.0.3"
+    },
+    "devDependencies": {
+      "typescript": "^5",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "autoprefixer": "^10.0.1",
+      "postcss": "^8",
+      "tailwindcss": "^3.3.0",
+      "eslint": "^8",
+      "eslint-config-next": "14.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
